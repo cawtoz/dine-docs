@@ -3,14 +3,15 @@ title: Contributing
 ---
 Contributions are welcome!, Please follow these steps to suggest changes:
 
+## Fork and Clone Repository
 1. Fork this repository. For detailed instructions, refer to the [GitHub documentation on forking a repository](https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository).
-
 2. Clone your forked repository to your local machine:
      ```bash
      git clone https://github.com/your-username/dine-api.git
      cd dine-api
      ```
 
+## Make your changes
 3. Create a new branch for your changes:
      ```bash
      git checkout -b your-username
@@ -24,6 +25,7 @@ Contributions are welcome!, Please follow these steps to suggest changes:
      git commit -m "Add feature or fix description"
      ```
 
+## Publish your changes
 6. Push your changes to your forked repository:
      ```bash
      git push origin your-username
