@@ -1,7 +1,7 @@
 ---
 title: Dine API
 ---
-Dine API is a RESTful API designed for comprehensive restaurant management. Implemented with Kotlin and Ktor, it uses PostgreSQL as the database to support various aspects of restaurant operations. It provides CRUD operations to manage a wide range of restaurant-related data.
+[Dine API](https://github.com/cawtoz/dine-api.git) is a RESTful API designed for comprehensive restaurant management. Implemented with Kotlin and Ktor, it uses PostgreSQL as the database to support various aspects of restaurant operations. It provides CRUD operations to manage a wide range of restaurant-related data.
 
 ## Technologies Used
 - **Kotlin**: A modern, expressive, and safe programming language.

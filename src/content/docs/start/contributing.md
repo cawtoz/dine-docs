@@ -4,7 +4,7 @@ title: Contributing
 Contributions are welcome!, Please follow these steps to suggest changes:
 
 ## Fork and Clone Repository
-1. Fork this repository. For detailed instructions, refer to the [GitHub documentation on forking a repository](https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository).
+1. Fork the [repository](https://github.com/cawtoz/dine-api.git). For detailed instructions, refer to the [GitHub documentation on forking a repository](https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository).
 2. Clone your forked repository to your local machine:
      ```bash
      git clone https://github.com/your-username/dine-api.git
