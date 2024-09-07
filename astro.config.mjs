@@ -30,8 +30,21 @@ export default defineConfig({
         },
         {
           label: 'Endpoints',
-          autogenerate: { directory: 'endpoints' },
-        },
+          items: [
+            {
+              label: "Restaurant",
+              link: '/endpoints/restaurant',
+            },
+            {
+              label: "Menu",
+              link: '/endpoints/menu',
+            },
+            {
+              label: "Food",
+              link: '/endpoints/food',
+            }
+          ],
+        }
       ],
     }),
   ],
