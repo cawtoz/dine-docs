@@ -8,16 +8,18 @@ Retrieve a list of all food items.
 ```json
 [
   {
-    "menuId": 1,
-    "name": "Apple",
-    "description": "apple description",
-    "price": 3.7
+    "id": 1,
+    "name": "Chocolate Cake",
+    "description": "Chocolate cake with ganache topping",
+    "price": 2.6,
+    "menuId": 1
   },
   {
-    "menuId": 2,
-    "name": "Pear",
-    "description": "pear description",
-    "price": 3.2
+    "id": 2,
+    "name": "Bacon Cheeseburger",
+    "description": "Beef patty with bacon and cheddar cheese",
+    "price": 8.2,
+    "menuId": 2
   }
 ]
 ```
@@ -27,10 +29,11 @@ Retrieve a specific food item by its ID.
 ### Response `200 OK`
 ```json
 {
-  "menuId": 1,
-  "name": "Apple",
-  "description": "apple description",
-  "price": 3.7
+  "id": 1,
+  "name": "Chocolate Cake",
+  "description": "Chocolate cake with ganache topping",
+  "price": 2.6,
+  "menuId": 1
 }
 ```
 ### Response `404 Not Found`
@@ -52,13 +55,15 @@ Create a new food item.
 - **name**: (String) The name of the food item. This field is required.
 - **description**: (String) A brief description of the food item. This field is required.
 - **price**: (Number) The price of the food item. This field is required.
+- **menuId**: (Number) The menu id of the food item. This field is required.
 
 **Example**
 ```json
 {
-  "name": "Banana",
-  "description": "banana description",
-  "price": 2.9
+  "name": "Vanilla Ice Cream",
+  "description": "Vanilla ice cream with real vanilla beans",
+  "price": 4.2,
+  "menuId": 3
 }
 ```
 ### Response `201 Created`
