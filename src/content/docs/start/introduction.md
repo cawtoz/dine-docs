@@ -13,4 +13,4 @@ title: Dine API
 - **Dynamic Configuration**: Configures the application using settings from a `.env` file.
 
 ## Diagram UML
-![Diagram UML](https://github.com/user-attachments/assets/9dec3141-e695-4a27-acc9-267dbe8a0445)
+![Diagram UML](https://github.com/user-attachments/assets/ac475dd5-6cef-441a-83d9-3e27b4a88752)
