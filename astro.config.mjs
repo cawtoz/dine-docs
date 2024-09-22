@@ -44,6 +44,23 @@ export default defineConfig({
               link: '/endpoints/food',
             }
           ],
+        },
+        {
+          label: 'Models',
+          items: [
+            {
+              label: "Restaurant",
+              link: '/models/restaurant',
+            },
+            {
+              label: "Menu",
+              link: '/models/menu',
+            },
+            {
+              label: "Food",
+              link: '/models/food',
+            }
+          ],
         }
       ],
     }),
