@@ -12,5 +12,5 @@ title: Dine API
 - **CRUD Operations**: Create, read, update, and delete records for various restaurant entities.
 - **Dynamic Configuration**: Configures the application using settings from a `.env` file.
 
-## Diagram UML
-![Diagram UML](https://github.com/user-attachments/assets/ac475dd5-6cef-441a-83d9-3e27b4a88752)
+## UML Diagram
+![UML Diagram](https://github.com/user-attachments/assets/ac475dd5-6cef-441a-83d9-3e27b4a88752)
